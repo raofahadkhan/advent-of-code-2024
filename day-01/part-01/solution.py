@@ -59,6 +59,7 @@ def solution(input_str):
     sorted_right = sort(right)
     return calculate_difference(sorted_left, sorted_right)
 
-res = solution(content)
-print(res)
+if __name__ == "__main__":
+    res = solution(content)
+    print(res)
     
